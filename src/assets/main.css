@@ -1,0 +1,38 @@
+body {
+  background: rgb(0, 119, 163);
+  background: linear-gradient(
+    90deg,
+    #101B37 0%,
+    #0128eead  100%
+    /* #E41373  100% */
+  );
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: #212121;
+  max-width: fit-content;
+  padding: 1rem;
+  border-radius: 10%;
+  box-shadow: #323232 2px 2px 15px;
+}
+
+.tabs-content{
+  font-size: large;
+}
+
+.title-view{
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+}
+
+
+.lang-icon{
+  max-width: 30px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
