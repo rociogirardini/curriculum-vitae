@@ -40,9 +40,9 @@
         </v-tab>
       </RouterLink>
       <v-spacer></v-spacer>
-      <v-img class="lang-icon" src="/assets/icons/arg.png" @click="toggleLocale('es')"/>
+      <v-img class="lang-icon" src="\assets\icons\arg.png" @click="toggleLocale('es')"/>
       <br/>
-      <v-img class="lang-icon" src="/assets/icons/usa.png" style="margin-right:1rem ;" @click="toggleLocale('en')"/>
+      <v-img class="lang-icon" src="\assets\icons\usa.png" style="margin-right:1rem ;" @click="toggleLocale('en')"/>
     </v-tabs>
   </v-card>
 </template>
