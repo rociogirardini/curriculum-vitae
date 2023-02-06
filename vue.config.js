@@ -1,1 +1,5 @@
-module.exports = {  publicPath: process.env.NODE_ENV === "production" ? "/curriculum-vitae/" : "/",};
+module.exports = {
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/curriculum-vitae/'
+      : '/'
+  }
