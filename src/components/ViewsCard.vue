@@ -1,6 +1,6 @@
 <template>
   <div class="views-card">
-    <v-card class="text-center mt-15" max-width="100%" :height="cardHeight">
+    <v-card class="text-center mt-15" max-width="100%" min-height="680px" :height="cardHeight">
       <RouterView />
     </v-card>
   </div>
@@ -15,7 +15,7 @@ const { mobile } = useDisplay()
 const cardHeight = ref<string>("")
 
 if(!mobile.value){
-  cardHeight.value = "680px"
+  cardHeight.value = "auto"
 } else if(mobile.value){
   cardHeight.value = "auto"
 }

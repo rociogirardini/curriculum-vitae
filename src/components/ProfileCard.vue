@@ -28,7 +28,7 @@ if(mobile.value){
       <v-col>
         <v-img
         transition='fade-transition'
-          src="src/assets/profile-pic.png"
+          src="/assets/profile-pic.png"
           height="400px"
           cover
         />

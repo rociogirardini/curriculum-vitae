@@ -14,7 +14,7 @@ import * as directives from "vuetify/directives";
 import i18n from './locales/i18n'
 
 // Styles
-import "./assets/main.css";
+import "./styles/main.css";
 import "@mdi/font/css/materialdesignicons.css";
 
 import Clipboard from "v-clipboard";

@@ -33,7 +33,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\vue.png"
+                  src="\assets\icons\framework.png"
                   style="width: 2rem"
                   class="mr-1"
                 />
@@ -43,7 +43,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\ts.png"
+                  src="\assets\icons\ts.png"
                   style="width: 2rem"
                   class="mr-2"
                 />
@@ -53,7 +53,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\pinia.svg"
+                  src="\assets\icons\pinia.svg"
                   style="width: 1.5rem"
                   class="mr-2"
                 />
@@ -63,7 +63,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\jira.png"
+                  src="\assets\icons\jira.png"
                   style="width: 2rem"
                   class="mr-2"
                 />
@@ -73,7 +73,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\github.png"
+                  src="\assets\icons\github.png"
                   style="width: 2rem"
                 />
               </template>
@@ -97,7 +97,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\wordpress.png"
+                  src="\assets\icons\wordpress.png"
                   style="width: 2rem"
                   class="mr-2"
                 />
@@ -107,7 +107,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\slack.png"
+                  src="\assets\icons\slack.png"
                   style="width: 2rem"
                   class="mr-2"
                 />
@@ -117,7 +117,7 @@
               <template v-slot:activator="{ props }">
                 <img
                   v-bind="props"
-                  src="src\assets\icons\excel.png"
+                  src="\assets\icons\excel.png"
                   style="width: 2rem"
                 />
               </template>

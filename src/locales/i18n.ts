@@ -44,7 +44,7 @@ const i18n = createI18n({
       // ------------------------------- EXPERIENCIA
       workExperience: "Experiencia laboral",
       workIntro:
-        "Durante mis años universitarios trabajé como fotógrafa y diseñadora gráfica autónoma. Mi primer trabajo formal fue en una agencia de marketing europea, y mi primer (y actual) trabajo en TI es en una fintech argentina.",
+        "Durante mis años universitarios trabajé como fotógrafa y diseñadora gráfica autónoma. Mi primer trabajo formal fue en una agencia de marketing europea, y mi primer (y actual) trabajo IT es en una fintech argentina.",
       CCDate: "Buenos Aires - OCT 2022 hasta la actualidad.",
       CCProject: "Billetera virtual de criptomonedas.",
 
