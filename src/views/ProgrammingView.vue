@@ -34,7 +34,7 @@
                 <p class="mt-3 ml-4">SASS</p>
               </v-col>
               <v-col>
-                <v-img src="\assets\icons\js.jpg" width="4rem" />
+                <v-img src="\assets\icons\js.png" width="4rem" />
                 <p class="mt-3">JavaScript</p>
               </v-col>
               <v-col>

@@ -6,7 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/curriculum-vitae/',
+  base: process.env.NODE_ENV === 'production' ? '/curriculum-vitae/' : '/',
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
