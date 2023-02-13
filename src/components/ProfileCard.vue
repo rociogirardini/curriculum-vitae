@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useDisplay } from 'vuetify'
-import i18n from "@/locales/i18n";
 
 const email: string = "rogirardini@gmail.com";
 
@@ -10,16 +9,12 @@ const cardHeight = ref<string>("")
 
 if(mobile.value){
   cardHeight.value = "auto"
+  if(window.location.pathname === '/'){
+    console.log('estoy en inicio')
+  }
 } else if(!mobile.value){
   cardHeight.value = "770px"
 }
-
-// let cvLang = ref<string>('')
-// if(i18n.global.locale = 'en'){
-//   cvLang.value = '/Rocio Girardini_CV-EN.pdf'
-// } else if(i18n.global.locale = 'es'){
-//   cvLang.value = '/Rocio Girardini_CV-ES.pdf'
-// }
 </script>
 
 <template>

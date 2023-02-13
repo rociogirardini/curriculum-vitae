@@ -9,130 +9,79 @@
         {{ $t("programmingIntro") }}
       </p>
       <br />
-      <v-tabs v-model="tab" bg-color="pink-darken-4">
-        <v-tab value="one">{{ $t("programmingTab1") }}</v-tab>
-        <v-tab value="two">Frameworks</v-tab>
-        <v-tab value="three">State Management</v-tab>
-        <v-tab value="four">{{ $t("programmingTab2") }}</v-tab>
-      </v-tabs>
-
-      <v-card-text class="text-left tabs-content">
-        <v-window v-model="tab">
-          <v-window-item value="one">
-            <br />
-            <v-row>
-              <v-col>
-
-                <p class="mt-3 ml-2">HTML5</p>
-              </v-col>
-              <v-col>
-                <p class="mt-3 ml-3">CSS3</p>
-              </v-col>
-              <v-col>
-                <p class="mt-3 ml-4">SASS</p>
-              </v-col>
-              <v-col>
-                <p class="mt-3">JavaScript</p>
-              </v-col>
-              <v-col>
-                <p class="mt-3">TypeScript</p>
-              </v-col>
-            </v-row>
-          </v-window-item>
-
-          <v-window-item value="two">
-            <br />
-            <v-row>
-              <v-col :cols="cols">
-                <v-img src="\assets\icons\react.png" class="ml-1 pb-3" width="4rem" />
-                <p class="mt-3 ml-1">React Js</p>
-              </v-col>
-              <v-col>
-                <v-img src="\assets\icons\framework.png" class="ml-5" width="4rem" />
-                <p class="mt-3">Vue 2 & Vue 3</p>
-              </v-col>
-            </v-row>
-          </v-window-item>
-
-          <v-window-item value="three">
-            <br />
-            <v-row>
-              <v-col :cols="cols">
-                <v-img src="\assets\icons\framework.png" class="mt-3" width="4rem" />
-                <p class="mt-3 ml-4">Vuex</p>
-              </v-col>
-              <v-col>
-                <v-img src="\assets\icons\pinia.svg" width="3rem" />
-                <p class="mt-3 ml-1">Pinia</p>
-              </v-col>
-            </v-row>
-          </v-window-item>
-
-          <v-window-item value="four">
-            <v-row>
-              <v-col>
-                <h4>{{ $t("moreTitle1") }}</h4>
-                <v-row class="align-center">
-                  <v-col :cols="moreTab"><img src="\assets\icons\vsc.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>Visual Studio Code</p>
-                  </v-col>
-                </v-row>
-                <br />
-                <h4>{{ $t("moreTitle2") }}</h4>
-                <v-row class="align-center">
-                  <v-col :cols="moreTab"><img src="\assets\icons\git.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col :cols="moreTab">
-                    <p>Git</p>
-                  </v-col>
-                  <v-col :cols="moreTab"><img src="\assets\icons\github.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>GitHub</p>
-                  </v-col>
-                </v-row>
-                <br />
-                <h4>{{ $t("moreTitle3") }}</h4>
-                <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"><img src="\assets\icons\jira.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>Jira</p>
-                  </v-col>
-                </v-row>
-              </v-col>
-              <v-col>
-                <h4>{{ $t("moreTitle4") }}</h4>
-                <v-row class="align-center">
-                  <v-col :cols="moreTab"><img src="\assets\icons\framework.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>Vue Test Utils</p>
-                  </v-col>
-                </v-row>
-                <br />
-                <h4>{{ $t("moreTitle5") }}</h4>
-                <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"><img src="\assets\icons\illustrator.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>Adobe Illustrator</p>
-                  </v-col>
-                </v-row>
-                <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"><img src="\assets\icons\photoshop.png"
-                      style="width: 3rem; padding-right: 5px" /></v-col>
-                  <v-col>
-                    <p>Adobe Photoshop</p>
-                  </v-col>
-                </v-row>
-              </v-col>
-            </v-row>
-          </v-window-item>
-        </v-window>
-      </v-card-text>
+      <v-table>
+        <thead>
+          <tr>
+            <th class="text-left">
+              {{ $t("programmingTab1") }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <v-chip class="ma-1"  variant="outlined">HTML5</v-chip>
+              <v-chip class="ma-1"  variant="outlined">CSS3</v-chip>
+              <v-chip class="ma-1"  variant="outlined">SASS</v-chip>
+              <v-chip class="ma-1"  variant="outlined">JavaScript</v-chip>
+              <v-chip class="ma-1"  variant="outlined">TypeScript</v-chip>
+            </td>
+          </tr>
+        </tbody>
+      </v-table>
+      <v-table>
+        <thead>
+          <tr>
+            <th class="text-left">
+              Frameworks
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <v-chip class="ma-1"  variant="outlined">React Js</v-chip>
+              <v-chip class="ma-1"  variant="outlined">Vue.js 2</v-chip>
+              <v-chip class="ma-1"  variant="outlined">Vue.js 3</v-chip>
+            </td>
+          </tr>
+        </tbody>
+      </v-table>
+      <v-table>
+        <thead>
+          <tr>
+            <th class="text-left">
+              State Management
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <v-chip class="ma-1"  variant="outlined">Vuex</v-chip>
+              <v-chip class="ma-1"  variant="outlined">Pinia</v-chip>
+            </td>
+          </tr>
+        </tbody>
+      </v-table>
+      <v-table>
+        <thead>
+          <tr>
+            <th class="text-left">
+              {{ $t("programmingTab2") }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <v-chip class="ma-1"  variant="outlined">Visual Studio Code</v-chip>
+              <v-chip class="ma-1"  variant="outlined">Git & GitHub</v-chip>
+              <v-chip class="ma-1"  variant="outlined">Jira, Atlassian, Confluence</v-chip>
+            </td>
+          </tr>
+        </tbody>
+      </v-table>
     </v-col>
   </v-row>
 </template>

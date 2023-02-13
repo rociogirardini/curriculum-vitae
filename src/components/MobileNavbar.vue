@@ -8,22 +8,21 @@
         ></v-app-bar-nav-icon>
 
         <v-spacer></v-spacer>
-        <v-img
-            class="lang-icon"
-            src="\assets\icons\arg.png"
-            @click="toggleLocale('es')"
-          />
-          <v-img
-            class="lang-icon"
-            src="\assets\icons\usa.png"
-            style="margin-right: 1rem"
-            @click="toggleLocale('en')"
-          />
+        <div class="text-center mr-3 lang-wrapper">
+        <p class="lang-icon" @click="toggleLocale('es')">ES</p>
+        <p class="lang-icon" @click="toggleLocale('en')">EN</p>
+      </div>
       </v-app-bar>
 
       <v-navigation-drawer v-model="drawer" location="start" temporary>
         <v-list>
-          <RouterLink to="/">
+          <RouterLink to="/profile">
+            <v-list-item>
+              <v-icon>mdi-phone</v-icon>
+              {{ $t("contact") }}
+            </v-list-item>
+          </RouterLink>
+          <RouterLink to="/summary">
             <v-list-item>
               <v-icon>mdi-account</v-icon>
               {{ $t("summary") }}
