@@ -3,7 +3,7 @@
         <v-col>
             <RouterLink to="/summary">
                 <v-btn color="pink-darken-2">
-                    Let's start >>
+                    {{ $t("start") }} >>
                 </v-btn>
             </RouterLink>
         </v-col>

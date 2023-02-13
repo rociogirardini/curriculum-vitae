@@ -6,6 +6,7 @@ const i18n = createI18n({
     es: {
       home: 'Inicio',
       contact: 'Contacto',
+      start: 'Comenzar',
       // ------------------------------- PERFIL
       profileText:
         "Soy programadora en React Js y Vue Js. Me formé como tal en CoderHouse, para luego potenciar mis habilidades en una startup Fintech. Actualmente, me encuentro en la búsqueda de nuevas oportunidades para mejorar mis habilidades.",
@@ -122,6 +123,7 @@ const i18n = createI18n({
     en: {
       home: 'Home',
       contact: 'Contact',
+      start: "Let's start",
       // ------------------------------- PROFILE
       profileText:
         "I'm a specialized in React Js and Vue Js framework. I trained as such at CoderHouse, to later enhance my skills in a Fintech startup. Currently, I am looking for new opportunities to improve my skills.",
