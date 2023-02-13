@@ -22,23 +22,19 @@
             <br />
             <v-row>
               <v-col>
-                <v-img src="\assets\icons\html5.png" width="4rem" />
+
                 <p class="mt-3 ml-2">HTML5</p>
               </v-col>
               <v-col>
-                <v-img src="\assets\icons\css3.png" width="4rem" />
                 <p class="mt-3 ml-3">CSS3</p>
               </v-col>
               <v-col>
-                <v-img src="\assets\icons\sass.png" width="4rem" />
                 <p class="mt-3 ml-4">SASS</p>
               </v-col>
               <v-col>
-                <v-img src="\assets\icons\js.png" width="4rem" />
                 <p class="mt-3">JavaScript</p>
               </v-col>
               <v-col>
-                <v-img src="\assets\icons\ts.png" width="4rem" />
                 <p class="mt-3">TypeScript</p>
               </v-col>
             </v-row>
@@ -48,19 +44,11 @@
             <br />
             <v-row>
               <v-col :cols="cols">
-                <v-img
-                  src="\assets\icons\react.png"
-                  class="ml-1 pb-3"
-                  width="4rem"
-                />
+                <v-img src="\assets\icons\react.png" class="ml-1 pb-3" width="4rem" />
                 <p class="mt-3 ml-1">React Js</p>
               </v-col>
               <v-col>
-                <v-img
-                  src="\assets\icons\framework.png"
-                  class="ml-5"
-                  width="4rem"
-                />
+                <v-img src="\assets\icons\framework.png" class="ml-5" width="4rem" />
                 <p class="mt-3">Vue 2 & Vue 3</p>
               </v-col>
             </v-row>
@@ -70,11 +58,7 @@
             <br />
             <v-row>
               <v-col :cols="cols">
-                <v-img
-                  src="\assets\icons\framework.png"
-                  class="mt-3"
-                  width="4rem"
-                />
+                <v-img src="\assets\icons\framework.png" class="mt-3" width="4rem" />
                 <p class="mt-3 ml-4">Vuex</p>
               </v-col>
               <v-col>
@@ -89,53 +73,60 @@
               <v-col>
                 <h4>{{ $t("moreTitle1") }}</h4>
                 <v-row class="align-center">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\vsc.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>Visual Studio Code</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\vsc.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>Visual Studio Code</p>
+                  </v-col>
                 </v-row>
                 <br />
                 <h4>{{ $t("moreTitle2") }}</h4>
                 <v-row class="align-center">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\git.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col :cols="moreTab"><p>Git</p></v-col>
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\github.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>GitHub</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\git.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col :cols="moreTab">
+                    <p>Git</p>
+                  </v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\github.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>GitHub</p>
+                  </v-col>
                 </v-row>
                 <br />
                 <h4>{{ $t("moreTitle3") }}</h4>
                 <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\jira.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>Jira</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\jira.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>Jira</p>
+                  </v-col>
                 </v-row>
               </v-col>
               <v-col>
                 <h4>{{ $t("moreTitle4") }}</h4>
                 <v-row class="align-center">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\framework.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>Vue Test Utils</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\framework.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>Vue Test Utils</p>
+                  </v-col>
                 </v-row>
                 <br />
                 <h4>{{ $t("moreTitle5") }}</h4>
                 <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\illustrator.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>Adobe Illustrator</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\illustrator.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>Adobe Illustrator</p>
+                  </v-col>
                 </v-row>
                 <v-row class="align-center mt-1">
-                  <v-col :cols="moreTab"
-                    ><img src="\assets\icons\photoshop.png" style="width: 3rem; padding-right: 5px"
-                  /></v-col>
-                  <v-col><p>Adobe Photoshop</p></v-col>
+                  <v-col :cols="moreTab"><img src="\assets\icons\photoshop.png"
+                      style="width: 3rem; padding-right: 5px" /></v-col>
+                  <v-col>
+                    <p>Adobe Photoshop</p>
+                  </v-col>
                 </v-row>
               </v-col>
             </v-row>
