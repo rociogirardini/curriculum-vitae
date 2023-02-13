@@ -23,7 +23,7 @@ if(mobile.value){
       <v-col>
         <v-img
         transition='fade-transition'
-          src="\assets\profile-pic.png"
+          src="curriculum-vitae\assets\profilePic.png"
           height="400px"
           cover
         />
