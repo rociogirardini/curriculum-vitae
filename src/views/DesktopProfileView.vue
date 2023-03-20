@@ -29,7 +29,7 @@ function showTooltip(){
                 <v-row>
                     <v-col>
                         <v-list>
-                            <v-list-item prepend-avatar="/assets/fotocv.jpg" title="Rocío Girardini"
+                            <v-list-item prepend-avatar="/curriculum-vitae/assets/fotocv.jpg" title="Rocío Girardini"
                                 subtitle="Front-end Developer"></v-list-item>
                         </v-list>
                         <v-card-text>{{ $t('profileText') }}</v-card-text>
