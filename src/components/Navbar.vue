@@ -1,56 +1,41 @@
 <template>
   <MobileNavbar v-if="mobileNav"></MobileNavbar>
   <v-card v-else>
-    <v-tabs bg-color="pink-darken-2" align-tabs="center" stacked>
-      <v-spacer></v-spacer>
-      <RouterLink to="/">
-            <v-tab>
-              <v-icon>mdi-home</v-icon>
-              {{ $t("home") }}
-            </v-tab>
-          </RouterLink>
-      <RouterLink to="/summary">
-        <v-tab>
-          <v-icon>mdi-account</v-icon>
-          {{ $t("summary") }}
-        </v-tab>
-      </RouterLink>
-      <RouterLink to="/cover-letter">
-        <v-tab>
-          <v-icon>mdi-newspaper-variant</v-icon>
-          {{ $t("coverLetter") }}
-        </v-tab>
-      </RouterLink>
-      <RouterLink to="/work-experience">
-        <v-tab>
-          <v-icon>mdi-briefcase</v-icon>
-          {{ $t("workExperience") }}
-        </v-tab>
-      </RouterLink>
-      <RouterLink to="/school-background">
-        <v-tab>
-          <v-icon>mdi-bookshelf</v-icon>
-          {{ $t('studies') }}
-        </v-tab>
-      </RouterLink>
-      <RouterLink to="/programming">
-        <v-tab>
-          <v-icon>mdi-application-brackets</v-icon>
-          {{ $t('programming') }}
-        </v-tab>
-      </RouterLink>
-      <RouterLink to="/languages">
-        <v-tab>
-          <v-icon>mdi-earth</v-icon>
-          {{ $t('languages') }}
-        </v-tab>
-      </RouterLink>
-      <v-spacer></v-spacer>
+    <v-layout>
+      <v-navigation-drawer
+        class="bg-amber-darken-4"
+        expand-on-hover
+        rail
+      >
+        <v-list>
+          <v-list-item
+            prepend-avatar="../../assets/fotocv.jpg"
+            title="Rocío Girardini"
+            subtitle="rogirardini@gmail.com"
+          ></v-list-item>
+        </v-list>
+
+        <v-divider></v-divider>
+
+        <v-list density="compact" nav>
+          <RouterLink to="/"><v-list-item prepend-icon="mdi-home" :title="$t('home') + ' & ' + $t('contact') " value="home"></v-list-item></RouterLink>
+          <RouterLink to="/summary"><v-list-item prepend-icon="mdi-account" :title="$t('summary')" value="summary"></v-list-item></RouterLink>
+          <RouterLink to="/cover-letter"><v-list-item prepend-icon="mdi-newspaper-variant" :title="$t('coverLetter')" value="cover-letter"></v-list-item></RouterLink>
+          <RouterLink to="/work-experience"><v-list-item prepend-icon="mdi-briefcase" :title="$t('workExperience')" value="work-experience"></v-list-item></RouterLink>
+          <RouterLink to="/school-background"><v-list-item prepend-icon="mdi-bookshelf" :title="$t('studies')" value="studies"></v-list-item></RouterLink>
+          <RouterLink to="/programming"><v-list-item prepend-icon="mdi-application-brackets" :title="$t('programming')" value="programming"></v-list-item></RouterLink>
+          <RouterLink to="/languages"><v-list-item prepend-icon="mdi-earth" :title="$t('languages')" value="earth"></v-list-item></RouterLink>
+        </v-list>
+        <v-divider></v-divider>
+        <col>
       <div class="text-center mr-3 lang-wrapper">
-        <p class="lang-icon" @click="toggleLocale('es')">ES</p>
-        <p class="lang-icon" @click="toggleLocale('en')">EN</p>
+        <span class="lang-icon ml-2" @click="toggleLocale('es')"><img src="/assets/icons/arg.png" style="width:25px; margin: 8px;" alt="locale"/></span>
+        <span class="lang-icon ml-2" @click="toggleLocale('en')"><img src="/assets/icons/usa.png" style="width:25px; margin: 8px;" alt="locale"/></span>
       </div>
-    </v-tabs>
+      </v-navigation-drawer>
+
+      <!-- <v-main style="height: 250px"></v-main> -->
+    </v-layout>
   </v-card>
 </template>
 
@@ -65,12 +50,12 @@ function toggleLocale(lang: any) {
   i18n.global.locale = lang
 }
 
-const { mobile } = useDisplay()
+const { width } = useDisplay()
 const mobileNav = ref<boolean>(false)
 
-if (mobile.value) {
+if (width.value <= 1279) {
   mobileNav.value = true
-} else if (!mobile.value) {
+} else if (width.value > 1279) {
   mobileNav.value = false
 }
 </script>

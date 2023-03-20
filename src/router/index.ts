@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ProfileCard from "@/components/ProfileCard.vue";
 import DesktopProfileView from '../views/DesktopProfileView.vue'
 import SummaryView from "../views/SummaryView.vue";
 import CoverLetterView from "../views/CoverLetterView.vue";
@@ -15,11 +14,6 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: DesktopProfileView,
-    },
-    {
-      path: "/profile",
-      name: "profile",
-      component: ProfileCard,
     },
     {
       path: "/summary",
