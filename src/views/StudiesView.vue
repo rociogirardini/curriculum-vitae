@@ -32,7 +32,7 @@ if (width.value <= 546) {
         <v-card-text class="text-left tabs-content">
           <v-window v-model="tab">
             <v-window-item value="one">
-              <h2>Full Stack Develope CORE</h2>
+              <h2>Full Stack Developer CORE</h2>
               <p class="text-subtitle-1 text-disabled">Universidad TecMilenio & Digital NAO - 2023/23</p>
               <br />
               <h2>{{ $t('studies1') }}</h2>
