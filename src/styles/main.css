@@ -1,15 +1,22 @@
 body {
-  background: rgb(0, 119, 163);
-  background: linear-gradient(
-    90deg,
-    #101B37 0%,
-    #0128eead  100%
-    /* #E41373  100% */
-  );
+  background-color: #2b2e35;
 }
+
 a {
   text-decoration: none;
   color: white;
+}
+
+.v-list-item--active .v-list-item__prepend > .v-icon{
+  color: white
+}
+
+.v-navigation-drawer__content hr{
+  color: white;
+}
+
+hr{
+  color: #FFD54F;
 }
 
 .navbar {
@@ -20,8 +27,10 @@ a {
   box-shadow: #323232 2px 2px 15px;
 }
 
-.tabs-content{
-  font-size: large;
+.v-card{
+  padding: 0rem 1rem;
+  box-shadow: #15171a 7px 8px 5px;
+  border-radius: 15px;
 }
 
 .title-view{

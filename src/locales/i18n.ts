@@ -9,7 +9,7 @@ const i18n = createI18n({
       start: 'Comenzar',
       // ------------------------------- PERFIL
       profileText:
-        "Soy programadora en React Js y Vue Js. Me formé como tal en CoderHouse, para luego potenciar mis habilidades en una startup Fintech. Actualmente, me encuentro en la búsqueda de nuevas oportunidades para mejorar mis habilidades.",
+        "Soy programadora frontend en ReactJS y Vue.js 🙋🏽‍♀️. Actualmente estoy trabajando en una cripto Fintech, y realizando un curso de Full Stack Developer 👩🏽‍💻. Siempre estoy abierta a nuevas oportunidades que potencien mis habilidades 🚀.",
       // ------------------------------- RESUMEN
       summary: "Resumen",
       summaryText:
@@ -33,11 +33,11 @@ const i18n = createI18n({
       // ------------------------------- PRESENTACIÓN
       coverLetter: "Presentación",
       coverLetterText: `<p>
-      ¡Hola! Como has podido ver, mi nombre es Rocío Girardini, y espero ser considerada como candidata para el puesto de desarrolladora Frontend.
+      ¡Hola! Como ya sabrás, mi nombre es Rocío Girardini, y espero ser considerada como candidata para el puesto de desarrolladora Frontend.
     </p>
     <br />
     <p>
-    Para contarte un poco sobre mí, durante la pandemia trabajé en una agencia de marketing alemana, para su sede española. Allí redactaba artículos para el programa OSP de Amazon, además de gestionar un grupo de becarios de hasta 14 personas. Mientras trabajaba estudié programación en Coderhouse, y así es como actualmente trabajo como desarrolladora Front-end para una Crypto Fintech. Estos trabajos me han permitido desarrollar habilidades tales como el trabajo en equipo, la organización, así como también poner a prueba mi capacidad creativa.  
+    Para contarte un poco sobre mí, durante la pandemia trabajé en una agencia de marketing alemana, para su sede española. Allí redactaba artículos para el programa OSP de Amazon, además de gestionar un grupo de becarios de hasta 14 personas. Mientras trabajaba estudié programación, y así es como actualmente trabajo como desarrolladora Front-end para una Crypto Fintech. Estos trabajos me han permitido desarrollar habilidades tales como el trabajo en equipo, la organización, así como también poner a prueba mi capacidad creativa.  
     </p>
     <br />
     <p>Actualmente, busco nuevas y desfiantes oportunidades para poder crecer tanto personal como profesionalmente. Espero que mi perfil sea de tu interés.</p>
@@ -56,14 +56,12 @@ const i18n = createI18n({
       </li>
       <li>Diseñar páginas dinámicas e interactivas.
       </li>
-      <li>
-      Migración del proyecto de Vue2 a Vue3, y de Vuex store a Pinia.
-      </li>
       <li>Desarrollo de código de calidad testeable.
       </li>
       <li>
       Evaluar y colaborar con el equipo de diseño UX UI para la viabilidad técnica.
       </li>
+      <li>Trabajar en un entorno con metodologías ágiles.</li>
     </ul>`,
       GCMDate: "España - FEB 2021 a MAY 2022",
       GCMProject: "Proyecto de Amazon OSP.",
@@ -81,8 +79,7 @@ const i18n = createI18n({
       studies: "Estudios",
       studiesIntro: `<p class="text-left ml-2 mr-2">Como verás a continuación, no es una página muy concurrida. Soy sobre todo autodidacta. Tuve que dejar la universidad a causa de la pandemia, pero me enseñó todas las herramientas gráficas que conozco y que sigo utilizando hoy en día.</p>
     <p class="text-left ml-2 mr-2">Por otro lado, mi formación front-end fue con el framework React, pero aprendí Vue en mi trabajo actual.</p>`,
-      tab1: "Cursos",
-      tab2: "Universidad",
+      tab1: "Cursos y Carreras",
       studies1: "Carrera de desarrollo Front End",
       studiesText1: `<p>Este programa está compuesto por los siguientes cursos</p>
     <ul style="padding-left: 2rem">
@@ -117,6 +114,7 @@ const i18n = createI18n({
 
       // ------------------------------- OTROS
       copy: "Copiar email",
+      copied: "Copiado",
       whatsapp: "Abrir un chat en WhatsApp",
       pdf: "Descargar PDF",
     },
@@ -126,7 +124,7 @@ const i18n = createI18n({
       start: "Let's start",
       // ------------------------------- PROFILE
       profileText:
-        "I'm a specialized in React Js and Vue Js framework. I trained as such at CoderHouse, to later enhance my skills in a Fintech startup. Currently, I am looking for new opportunities to improve my skills.",
+        "I am a frontend ReactJS and Vue.js developer🙋🏽‍♀️. I am currently working in a crypto Fintech, and taking a course to become a Full Stack Developer 👩🏽‍💻. I am always open to new and challenging opportunities that enhance my skills 🚀.",
       // ------------------------------- SUMMARY
       summary: "Summary",
       summaryText:
@@ -154,7 +152,7 @@ const i18n = createI18n({
     </p>
     <br />
     <p>
-    To tell you a little about myself, during the pandemic I worked in a German marketing agency for their Spanish branch, writing articles for the OSP (Onsite Associates Program) of Amazon ES, as well as managing a group of interns of up to 14 people. While working there I studied programming at Coderhouse, and this is how I currently work as a Front-end developer for a Crypto Fintech. These jobs allowed me to develop skills such as teamwork, organization, as well as to test my creative skills. 
+    To tell you a little about myself, during the pandemic I worked in a German marketing agency for their Spanish branch, writing articles for the OSP (Onsite Associates Program) of Amazon ES, as well as managing a group of interns of up to 14 people. While working there I studied programming, and this is how I currently work as a Front-end developer for a Crypto Fintech. These jobs allowed me to develop skills such as teamwork, organization, as well as to test my creative skills. 
     </p>
     <br />
     <p>Currently, I am looking for new and challenging opportunities to grow both personally and professionally. I hope my profile is of interest to you.</p>
@@ -170,10 +168,6 @@ const i18n = createI18n({
       CCTasks: `<ul style="padding-left: 2rem">
       <li>Optimize and refactor code, and create web features.</li>
       <li>Design dynamic and interactive pages.</li>
-      <li>
-        Migration of the project from Vue2 to Vue3, and from Vuex store
-        to Pinia.
-      </li>
       <li>Development of quality testable code.</li>
       <li>
         Assess and collaborate with the UX UI design team for technical
@@ -210,9 +204,8 @@ const i18n = createI18n({
       studies: "School background",
       studiesIntro: `<p class="text-left ml-2 mr-2">As you will see below, this is not a crowded page. I am mostly self-taught. I had to drop out of college because of the pandemic, but it taught me all the graphics tools that I know and still use today.</p>
     <p class="text-left ml-2 mr-2">On the other hand, my front-end training was with the React framework, but I learned Vue at my current job.</p>`,
-      tab1: "Courses",
-      tab2: "University",
-      studies1: "Front-End Development Career",
+      tab1: "Courses & Careers",
+      studies1: "Front End Development Career",
       studiesText1: `<p>This program consisted of the following courses:</p>
     <ul style="padding-left: 2rem">
       <li>React Js course <span class="text-disabled"> - 2022</span></li>
@@ -246,6 +239,7 @@ const i18n = createI18n({
 
       // ------------------------------- OTROS
       copy: "Copy email",
+      copied: "Copied",
       whatsapp: "Open a chat in WhatsApp",
       pdf: "Download PDF",
     },

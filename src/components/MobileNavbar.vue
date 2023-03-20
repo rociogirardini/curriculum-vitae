@@ -1,7 +1,7 @@
 <template>
   <v-card class="mobileNav">
     <v-layout>
-      <v-app-bar color="pink-darken-2" prominent>
+      <v-app-bar color="amber-darken-4" prominent>
         <v-app-bar-nav-icon
           variant="text"
           @click.stop="drawer = !drawer"
@@ -9,17 +9,17 @@
 
         <v-spacer></v-spacer>
         <div class="text-center mr-3 lang-wrapper">
-        <p class="lang-icon" @click="toggleLocale('es')">ES</p>
-        <p class="lang-icon" @click="toggleLocale('en')">EN</p>
+          <span class="lang-icon" @click="toggleLocale('es')"><img src="/assets/icons/arg.png" style="width:25px;" alt="locale"/></span>
+        <span class="lang-icon ml-1" @click="toggleLocale('en')"><img src="/assets/icons/usa.png" style="width:25px;" alt="locale"/></span>
       </div>
       </v-app-bar>
 
       <v-navigation-drawer v-model="drawer" location="start" temporary>
         <v-list>
-          <RouterLink to="/profile">
+          <RouterLink to="/">
             <v-list-item>
-              <v-icon>mdi-phone</v-icon>
-              {{ $t("contact") }}
+              <v-icon>mdi-home</v-icon>
+              {{ $t('home') }} & {{ $t("contact") }}
             </v-list-item>
           </RouterLink>
           <RouterLink to="/summary">
