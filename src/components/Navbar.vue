@@ -9,7 +9,7 @@
       >
         <v-list>
           <v-list-item
-            prepend-avatar="../../assets/fotocv.jpg"
+            prepend-avatar="/assets/fotocv.jpg"
             title="Rocío Girardini"
             subtitle="rogirardini@gmail.com"
           ></v-list-item>
