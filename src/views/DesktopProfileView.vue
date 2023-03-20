@@ -61,7 +61,7 @@ function showTooltip(){
                             </v-tooltip>
                             <v-tooltip :text="$t('pdf')" location="bottom">
                                 <template v-slot:activator="{ props }">
-                                    <a href="/Rocio Girardini_CV-EN.pdf" download>
+                                    <a href="/Resume_RocioGirardini_2023.pdf" download>
                                         <v-btn v-bind="props" size="x-large" color="surface-variant" variant="text"
                                             icon="mdi-file-download-outline"></v-btn>
                                     </a>
