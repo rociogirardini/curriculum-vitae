@@ -12,7 +12,7 @@
   <p align="center">
     A resume developed entirely by me, under technologies specified below.
     <br />
-    <a href="https://rociogirardini.github.io/curriculum-vitae/">Demo</a>
+    <a href="https://rociogirardini.github.io/curriculum-vitae/" target="_blank">Demo</a>
     <br />
     <a href="https://github.com/rociogirardini/"><strong>Explore other projects »</strong></a>
     <br />
@@ -49,7 +49,7 @@
 
 ### Last update
 
-13 FEB 2023
+20 MAR 2023
 
 <!-- CONTACT -->
 ## Contact
