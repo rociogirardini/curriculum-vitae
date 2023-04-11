@@ -10,7 +10,7 @@ const marginTop = ref<string>('')
 const moreTab = ref<number>(0);
 const graphics = ref<number[]>([0, 0]);
 
-const development = ref<string[]>(['HTML5', 'CSS3', 'SASS', 'JavaScript', 'TypeScript', 'API Rest']);
+const development = ref<string[]>(['HTML5', 'CSS3', 'SASS', 'JavaScript', 'TypeScript', 'Node.js', 'API Rest']);
 const frameworks = ref<string[]>(['React Js', 'Vue.js 2', 'Vue.js 3']);
 const more = ref<string[]>(['Visual Studio Code', 'Git & GitHub', 'Jira, Atlassian, Confluence', 'DevOps Methodology', 'Scrum Methodology']);
 

@@ -19,7 +19,7 @@ const i18n = createI18n({
       summaryAnswer1:
         "Si! En la pestaña de experiencia laboral podés ver en detalle mis tareas en este rol. Trabajo desde octubre de 2022 en una fintech argentina enfocada en criptodivisas. ¿Un dato de color? Tiene el primer pool de minería sustentable de Latinoamérica.",
       summaryQuestion2:
-        "En tu CV dice que conoces React y Vue. ¿En qué framework te sentís más cómoda?",
+        "En tu CV dice que conoces React y Vue. ¿Con cuál te sentís más cómoda?",
       summaryAnswer2:
         "Me siento cómoda en ambos, pero actualmente prefiero Vue ya que es el framework con el que he estado trabajando últimamente.",
       summaryQuestion3: "Necesitamos que hables diferentes idiomas.",
@@ -52,16 +52,16 @@ const i18n = createI18n({
       CCProject: "Billetera virtual de criptomonedas.",
 
       CCTasks: `<ul style="padding-left: 2rem">
-      <li>Optimizar y refactorizar código, y crear funcionalidades web.
+      <li>Refactorización y mantenimiento de código en aplicaciones web.
       </li>
-      <li>Diseñar páginas dinámicas e interactivas.
+      <li>Evaluar y colaborar con el equipo de diseño UX UI para la viabilidad técnica.
       </li>
-      <li>Desarrollo de código de calidad testeable.
+      <li>Consumo de APIs propias y de terceros.
       </li>
       <li>
-      Evaluar y colaborar con el equipo de diseño UX UI para la viabilidad técnica.
+      Elaboración de código de calidad testeable.
       </li>
-      <li>Trabajar en un entorno con metodologías ágiles.</li>
+      <li>Trabajar en un entorno ágil con metodología scrum.</li>
     </ul>`,
       GCMDate: "España - FEB 2021 a MAY 2022",
       GCMProject: "Proyecto de Amazon OSP.",
@@ -77,9 +77,10 @@ const i18n = createI18n({
 
       // ------------------------------- ESTUDIOS
       studies: "Estudios",
-      studiesIntro: `<p class="text-left ml-2 mr-2">Como verás a continuación, no es una página muy concurrida. Soy sobre todo autodidacta. Tuve que dejar la universidad a causa de la pandemia, pero me enseñó todas las herramientas gráficas que conozco y que sigo utilizando hoy en día.</p>
-    <p class="text-left ml-2 mr-2">Por otro lado, mi formación front-end fue con el framework React, pero aprendí Vue en mi trabajo actual.</p>`,
+      studiesIntro: `<p class="text-left ml-2 mr-2">Resumidamente, mi formación front-end fue con React.js, y aprendí Vue.js en mi actual trabajo.</p>
+    <p class="text-left ml-2 mr-2">Además, me encuentro siempre haciendo cursos para mantenerme actualizada.</p>`,
       tab1: "Cursos y Carreras",
+      studies0: "Digital NAO x Universidad TecMilenio - 2023/En curso",
       studies1: "Carrera de desarrollo Front End",
       studiesText1: `<p>Este programa está compuesto por los siguientes cursos</p>
     <ul style="padding-left: 2rem">
@@ -108,9 +109,9 @@ const i18n = createI18n({
       spanish: "Español",
       spanishLevel: "Lengua nativa.",
       english: "Inglés",
-      englishLevel: "Nivel B2 en expresión oral y escrita.",
-      italian: "Italian",
-      italianLevel: "Nivel A2 en expresión oral y escrita.",
+      englishLevel: "Nivel C1 Advanced.",
+      italian: "Italiano",
+      italianLevel: "Nivel A2.",
 
       // ------------------------------- OTROS
       copy: "Copiar email",
@@ -134,7 +135,7 @@ const i18n = createI18n({
       summaryAnswer1:
         "Yes! In the work experience tab you can see in detail my tasks in this role. I have been working since October 2022 in an Argentinean fintech focused on cryptocurrencies. A fun fact? It has the first sustainable mining pool in Latin America.",
       summaryQuestion2:
-        "You say you know React and Vue. In which framework do you feel more comfortable?",
+        "You say you know React and Vue. Which one do you feel more comfortable with?",
       summaryAnswer2:
         "I feel comfortable in both, but currently I prefer Vue as it is the framework I have been working with for several months now.",
       summaryQuestion3: "We need you to speak different languages.",
@@ -142,7 +143,7 @@ const i18n = createI18n({
         "It is not a problem. I speak Spanish, English and a bit of Italian. The fun fact in this section is that I learned Italian while volunteering in Italy in the summer of 2022.",
       summaryQuestion4: "Do you need a sponsor to work in any country?",
       summaryAnswer4:
-        "I do not need a visa or sponsor to work in Argentina or Europe. I am an Italian citizen and Argentinean resident.",
+        "I do not need a visa or sponsor neither in Argentina nor in Europe. I am a resident and native Argentinean, as well as an Italian citizen.",
 
       // ------------------------------- COVER LETTER
       coverLetter: "Cover letter",
@@ -166,14 +167,11 @@ const i18n = createI18n({
       CCDate: "Buenos Aires - OCT 2022 to current date.",
       CCProject: "Cryptocurrency wallet project.",
       CCTasks: `<ul style="padding-left: 2rem">
-      <li>Optimize and refactor code, and create web features.</li>
-      <li>Design dynamic and interactive pages.</li>
+      <li>Refactoring and maintaining code in web applications.</li>
+      <li>Evaluate and collaborate with UX UI design team for technical feasibility.</li>
+      <li>Consumption of own and third party APIs.</li>
       <li>Development of quality testable code.</li>
-      <li>
-        Assess and collaborate with the UX UI design team for technical
-        feasibility.
-      </li>
-      <li>Work in an agile environment with scrum methodology.</li>
+      <li>Working in an agile environment with scrum methodology.</li>
     </ul>`,
       GCMDate: "Spain - FEB 2021 to MAY 2022",
       GCMProject: "Amazon OSP proyect.",
@@ -202,9 +200,10 @@ const i18n = createI18n({
 
       // ------------------------------- STUDIES
       studies: "School background",
-      studiesIntro: `<p class="text-left ml-2 mr-2">As you will see below, this is not a crowded page. I am mostly self-taught. I had to drop out of college because of the pandemic, but it taught me all the graphics tools that I know and still use today.</p>
-    <p class="text-left ml-2 mr-2">On the other hand, my front-end training was with the React framework, but I learned Vue at my current job.</p>`,
+      studiesIntro: `<p class="text-left ml-2 mr-2">Very briefly, my front-end training was with React.js, and I learned Vue.js at my current job.</p>
+    <p class="text-left ml-2 mr-2">In addition, I am always taking courses to keep myself updated.</p>`,
       tab1: "Courses & Careers",
+      studies0: "Digital NAO x TecMilenio University - 2023/Ongoing",
       studies1: "Front End Development Career",
       studiesText1: `<p>This program consisted of the following courses:</p>
     <ul style="padding-left: 2rem">
@@ -233,9 +232,9 @@ const i18n = createI18n({
       spanish: "Spanish",
       spanishLevel: "Native speaker.",
       english: "English",
-      englishLevel: "Level B2 in oral and written expression.",
+      englishLevel: "Level C1 Advanced.",
       italian: "Italian",
-      italianLevel: "Level A2 in oral and written expression.",
+      italianLevel: "Level A2.",
 
       // ------------------------------- OTROS
       copy: "Copy email",

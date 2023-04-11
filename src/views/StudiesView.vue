@@ -33,7 +33,7 @@ if (width.value <= 546) {
           <v-window v-model="tab">
             <v-window-item value="one">
               <h2>Full Stack Developer CORE</h2>
-              <p class="text-subtitle-1 text-disabled">Universidad TecMilenio & Digital NAO - 2023/23</p>
+              <p class="text-subtitle-1 text-disabled">{{ $t('studies0') }}</p>
               <br />
               <h2>{{ $t('studies1') }}</h2>
               <p class="text-subtitle-1 text-disabled">Coderhouse - 2021/22</p>
