@@ -9,13 +9,13 @@ const i18n = createI18n({
       start: 'Comenzar',
       // ------------------------------- PERFIL
       profileText:
-        "Soy programadora frontend en ReactJS y Vue.js 🙋🏽‍♀️. Actualmente estoy trabajando en una cripto Fintech, y realizando un curso de Full Stack Developer 👩🏽‍💻. Siempre estoy abierta a nuevas oportunidades que potencien mis habilidades 🚀.",
+        "Soy programadora Frontend, tengo una gran pasión por la tecnología y me considero una persona proactiva y enfocada en la calidad y el rendimiento de mi trabajo. Mi experiencia en proyectos con ReactJS y Vue.js me ha permitido adquirir habilidades en el desarrollo de aplicaciones web y la implementación de soluciones efectivas. Me mantengo en constante aprendizaje y siempre busco nuevas oportunidades para crecer como profesional y aportar valor en los proyectos en los que participo.",
       // ------------------------------- RESUMEN
-      summary: "Resumen",
+      summary: "Preguntas frecuentes",
       summaryText:
-        "En esta página vas a encontrar algunas cuestiones que creo que te resultarán útiles.",
+        "En esta página vas a encontrar algunas respuestas que creo que te resultarán útiles.",
       summaryQuestion1:
-        "Querés un puesto como desarrolladora Front-end pero, ¿tenés experiencia en el puesto?",
+        "Estás buscando un puesto como desarrolladora Front-end pero, ¿tenés experiencia en el puesto?",
       summaryAnswer1:
         "Si! En la pestaña de experiencia laboral podés ver en detalle mis tareas en este rol. Trabajo desde octubre de 2022 en una fintech argentina enfocada en criptodivisas. ¿Un dato de color? Tiene el primer pool de minería sustentable de Latinoamérica.",
       summaryQuestion2:
@@ -33,16 +33,17 @@ const i18n = createI18n({
       // ------------------------------- PRESENTACIÓN
       coverLetter: "Presentación",
       coverLetterText: `<p>
-      ¡Hola! Como ya sabrás, mi nombre es Rocío Girardini, y espero ser considerada como candidata para el puesto de desarrolladora Frontend.
-    </p>
+      ¡Hola! Como ya sabrás, mi nombre es Rocío Girardini, y me entusiasma la oportunidad de contribuir con mis habilidades y experiencia en el desarrollo de aplicaciones web.</p>
     <br />
-    <p>
-    Para contarte un poco sobre mí, durante la pandemia trabajé en una agencia de marketing alemana, para su sede española. Allí redactaba artículos para el programa OSP de Amazon, además de gestionar un grupo de becarios de hasta 14 personas. Mientras trabajaba estudié programación, y así es como actualmente trabajo como desarrolladora Front-end para una Crypto Fintech. Estos trabajos me han permitido desarrollar habilidades tales como el trabajo en equipo, la organización, así como también poner a prueba mi capacidad creativa.  
-    </p>
+    <p>En mi trabajo actual, estoy involucrada en el área de Frontend en el desarrollo de una billetera virtual de criptomonedas. Trabajo en la refactorización y mantenimiento del código, colaborando estrechamente con el equipo de diseño UX/UI. También me dedico a integrar APIs propias y de terceros y he demostrado habilidades para la resolución de problemas técnicos, incluso en mi primer semana de trabajo.</p>
     <br />
-    <p>Actualmente, busco nuevas y desfiantes oportunidades para poder crecer tanto personal como profesionalmente. Espero que mi perfil sea de tu interés.</p>
+    <p>Además, tengo experiencia en gestión de proyectos, ya que trabajé como Project Manager para una empresa alemana, específicamente para su sede española. Allí, lideré un equipo de 14 becarios y me encargué de generar documentación e informes, asegurando la correcta ejecución de los objetivos.</p>
     <br />
-    <p>Me quedo a tu disposición.</p>`,
+    <p>Actualmente, estoy buscando nuevas oportunidades que me permitan crecer tanto personal como profesionalmente. Creo que mi perfil podría ser de interés para su empresa debido a mi experiencia en el desarrollo frontend y mi capacidad para enfrentar desafíos.</p>
+    <br />
+    <p>Agradezco su tiempo y consideración al revisar mi solicitud. Estoy disponible para proporcionar cualquier información adicional que pueda necesitar.</p>
+    <br />
+    <p>Me quedo a su disposición.</p>`,
 
       // ------------------------------- EXPERIENCIA
       workExperience: "Experiencia laboral",
@@ -80,23 +81,17 @@ const i18n = createI18n({
       studiesIntro: `<p class="text-left ml-2 mr-2">Resumidamente, mi formación front-end fue con React.js, y aprendí Vue.js en mi actual trabajo.</p>
     <p class="text-left ml-2 mr-2">Además, me encuentro siempre haciendo cursos para mantenerme actualizada.</p>`,
       tab1: "Cursos y Carreras",
-      studies0: "Digital NAO x Universidad TecMilenio - 2023/En curso",
-      studies1: "Carrera de desarrollo Front End",
-      studiesText1: `<p>Este programa está compuesto por los siguientes cursos</p>
-    <ul style="padding-left: 2rem">
-      <li> Curso de React Js <span class="text-disabled"> - 2022</span></li>
-      <li> Curso de Javascript <span class="text-disabled"> - 2022</span></li>
-      <li> Curso de Web Development <span class="text-disabled"> - 2021</span></li>
-    </ul>`,
-      studies2: "Máster en Marketing digital y Analítica web",
-      studies3: `<h2>Técnico Productor en Medios Audiovisuales</h2>
+      DigitalNao: "Digital NAO x Universidad TecMilenio - 2023/En curso",
+      WebDevelopment: "Desarrollo Web",
+      Marketing: "Marketing digital y Analítica web",
+      Cine: `<h2>Técnico Productor en Medios Audiovisuales</h2>
     <p class="text-subtitle-1 text-disabled">Universidad Nacional de Córdoba - 2017/Incompleto</p>`,
 
       // ------------------------------- PROGRAMACIÓN
       programming: "Programación",
       programmingIntro:
         "Acá podés encontrar mis conocimientos de programación clasificados por área.",
-      programmingTab1: "Desarrollo web",
+      programmingTab1: "Tecnologías",
       programmingTab2: "Más",
       moreTitle1: "Editores de código",
       moreTitle2: "Control de versiones",
@@ -125,9 +120,9 @@ const i18n = createI18n({
       start: "Let's start",
       // ------------------------------- PROFILE
       profileText:
-        "I am a frontend ReactJS and Vue.js developer🙋🏽‍♀️. I am currently working in a crypto Fintech, and taking a course to become a Full Stack Developer 👩🏽‍💻. I am always open to new and challenging opportunities that enhance my skills 🚀.",
+        "I am a Frontend programmer, I have a great passion for technology and I consider myself a proactive person focused on the quality and performance of my work. My experience in projects with ReactJS and Vue.js has allowed me to acquire skills in developing web applications and implementing effective solutions. I keep myself in constant learning and always look for new opportunities to grow as a professional and bring value in the projects in which I participate.",
       // ------------------------------- SUMMARY
-      summary: "Summary",
+      summary: "FAQ",
       summaryText:
         "In this page you will find a quick overview that I think you will find useful.",
       summaryQuestion1:
@@ -147,18 +142,19 @@ const i18n = createI18n({
 
       // ------------------------------- COVER LETTER
       coverLetter: "Cover letter",
-      coverLetterText: `<p>
-      Hi! As you know, my name is Rocío Girardini, and I am here to be
-      considered as a candidate for the position of Frontend developer.
-    </p>
+      coverLetterText: `
+    <p>Hi! As you may already know, my name is Rocío Girardini, and I'm excited about the opportunity to contribute my skills and experience in web development.</p>
+    <br />
+    <p>In my current position, I'm involved in the Frontend area, specifically in the development of a cryptocurrency virtual wallet. I work on code refactoring and maintenance, closely collaborating with the UX/UI design team. I'm also responsible for integrating both proprietary and third-party APIs, and I have demonstrated problem-solving skills, even during my first week on the job.</p>
     <br />
     <p>
-    To tell you a little about myself, during the pandemic I worked in a German marketing agency for their Spanish branch, writing articles for the OSP (Onsite Associates Program) of Amazon ES, as well as managing a group of interns of up to 14 people. While working there I studied programming, and this is how I currently work as a Front-end developer for a Crypto Fintech. These jobs allowed me to develop skills such as teamwork, organization, as well as to test my creative skills. 
-    </p>
+    Furthermore, I have experience in project management, as I worked as a Project Manager for a German company, specifically in their Spanish branch. There, I led a team of 14 interns and was responsible for generating documentation and reports, ensuring the successful achievement of objectives.</p>
     <br />
-    <p>Currently, I am looking for new and challenging opportunities to grow both personally and professionally. I hope my profile is of interest to you.</p>
+    <p>Currently, I'm seeking new opportunities that allow me to grow both personally and professionally. I believe that my profile could be of interest to your company due to my experience in frontend development and my ability to tackle challenges.</p>
     <br />
-    <p>I remain at your disposal.</p>`,
+    <p>Thank you for your time and consideration in reviewing my application. I'm available to provide any additional information you may require.</p>
+    <br />
+    <p>I look forward to hearing from you.</p>`,
 
       // ------------------------------- WORK EXPERIENCE
       workExperience: "Work experience",
@@ -203,23 +199,17 @@ const i18n = createI18n({
       studiesIntro: `<p class="text-left ml-2 mr-2">Very briefly, my front-end training was with React.js, and I learned Vue.js at my current job.</p>
     <p class="text-left ml-2 mr-2">In addition, I am always taking courses to keep myself updated.</p>`,
       tab1: "Courses & Careers",
-      studies0: "Digital NAO x TecMilenio University - 2023/Ongoing",
-      studies1: "Front End Development Career",
-      studiesText1: `<p>This program consisted of the following courses:</p>
-    <ul style="padding-left: 2rem">
-      <li>React Js course <span class="text-disabled"> - 2022</span></li>
-      <li>Javascript course <span class="text-disabled"> - 2022</span></li>
-      <li>Web Development course <span class="text-disabled"> - 2021</span></li>
-    </ul>`,
-      studies2: "Master in Digital Marketing and Web Analytics",
-      studies3: `<h2>Technical Producer in Audiovisual Media</h2>
+      DigitalNao: "Digital NAO x TecMilenio University - 2023/Ongoing",
+      WebDevelopment: "Web Development",
+      Marketing: "Digital Marketing and Web Analytics",
+      Cine: `<h2>Technical Producer in Audiovisual Media</h2>
     <p class="text-subtitle-1 text-disabled">National University of Córdoba - 2017/Incomplete</p>`,
 
       // ------------------------------- PROGRAMMING
       programming: "Programming",
       programmingIntro:
         "Here you can find my programming skills categorized by area.",
-      programmingTab1: "Web development",
+      programmingTab1: "Technologies",
       programmingTab2: "More",
       moreTitle1: "Code editors",
       moreTitle2: "Version control",

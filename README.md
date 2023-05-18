@@ -4,7 +4,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/rociogirardini/curriculum-vitae">
-    <img src="./public/readme-icon.png" alt="Logo" height="80">
   </a>
 
 <h3 align="center">Currículum Vitae</h3>
@@ -44,12 +43,12 @@
 * HTML5
 * CSS3
 * Vuetify
-* Vue js 3
+* Vue.js 3
 * i18n (translation)
 
 ### Last update
 
-10 APR 2023
+MAY 2023
 
 <!-- CONTACT -->
 ## Contact

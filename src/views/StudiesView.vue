@@ -23,7 +23,7 @@ if (width.value <= 546) {
         <br />
         <v-divider></v-divider>
         <br />
-        <div v-html="$t('studiesIntro')"></div>
+        <!-- <div v-html="$t('studiesIntro')"></div> -->
         <br />
         <v-tabs v-model="tab" bg-color="amber-darken-4">
           <v-tab value="one">{{ $t('tab1') }}</v-tab>
@@ -33,15 +33,21 @@ if (width.value <= 546) {
           <v-window v-model="tab">
             <v-window-item value="one">
               <h2>Full Stack Developer CORE</h2>
-              <p class="text-subtitle-1 text-disabled">{{ $t('studies0') }}</p>
+              <p class="text-subtitle-1 text-disabled">{{ $t('DigitalNao') }}</p>
               <br />
-              <h2>{{ $t('studies1') }}</h2>
+              <h2>React Js</h2>
+              <p class="text-subtitle-1 text-disabled">Coderhouse - 2022</p>
+              <br />
+              <h2>JavaScript</h2>
               <p class="text-subtitle-1 text-disabled">Coderhouse - 2021/22</p>
               <br />
-              <h2>{{ $t('studies2') }}</h2>
+              <h2>{{ $t('WebDevelopment') }}</h2>
+              <p class="text-subtitle-1 text-disabled">Coderhouse - 2021</p>
+              <br />
+              <h2>{{ $t('Marketing') }}</h2>
               <p class="text-subtitle-1 text-disabled">Neetwork Business School - 2020/20</p>
               <br />
-              <div v-html="$t('studies3')"></div>
+              <div v-html="$t('Cine')"></div>
             </v-window-item>
 
             <v-window-item value="two">

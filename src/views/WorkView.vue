@@ -23,9 +23,9 @@ if (width.value <= 546) {
         <br />
         <v-divider></v-divider>
         <br />
-        <p class="text-left ml-2 mr-2">
+        <!-- <p class="text-left ml-2 mr-2">
           {{ $t('workIntro') }}
-        </p>
+        </p> -->
         <br />
         <v-tabs v-model="tab" bg-color="amber-darken-4">
           <v-tab value="one">Front end Developer</v-tab>

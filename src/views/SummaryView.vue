@@ -7,7 +7,7 @@
         <v-divider></v-divider>
         <br />
         <div class="text-left ml-2 mr-2">
-          <p>{{ $t("summaryText") }}</p>
+          <!-- <p>{{ $t("summaryText") }}</p> -->
           <v-expansion-panels variant="inset" class="my-4">
             <v-expansion-panel :title="$t('summaryQuestion1')" :text="$t('summaryAnswer1')"></v-expansion-panel>
           </v-expansion-panels>

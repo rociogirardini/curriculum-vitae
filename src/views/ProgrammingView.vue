@@ -10,9 +10,9 @@ const marginTop = ref<string>('')
 const moreTab = ref<number>(0);
 const graphics = ref<number[]>([0, 0]);
 
-const development = ref<string[]>(['HTML5', 'CSS3', 'SASS', 'JavaScript', 'TypeScript', 'Node.js', 'API Rest']);
+const development = ref<string[]>(['HTML5', 'CSS3', 'SASS', 'JavaScript', 'TypeScript', 'Node.js', 'API Rest', 'Express', 'MongoDB']);
 const frameworks = ref<string[]>(['React Js', 'Vue.js 2', 'Vue.js 3']);
-const more = ref<string[]>(['Visual Studio Code', 'Git & GitHub', 'Jira, Atlassian, Confluence', 'DevOps Methodology', 'Scrum Methodology']);
+const more = ref<string[]>(['Visual Studio Code','IntelliJ IDEA', 'Git & GitHub', 'Postman', 'Jira, Confluence', 'DevOps Methodology', 'Scrum Methodology']);
 
 if (width.value <= 546) {
   marginTop.value = 'mt-16'
@@ -38,11 +38,11 @@ if (mobile.value) {
         <h1 class="pt-5 title-view">{{ $t("programming") }}</h1>
         <br />
         <v-divider></v-divider>
-        <br />
+        <!-- <br />
         <p class="ml-2 text-left">
           {{ $t("programmingIntro") }}
-        </p>
-        <br />
+        </p> 
+        <br /> -->
         <v-table>
           <thead>
             <tr>
